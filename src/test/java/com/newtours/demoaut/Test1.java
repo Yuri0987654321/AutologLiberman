@@ -31,6 +31,8 @@ public class Test1 extends WebDrivingSettings {
         driver.findElement(By.name("login")).click();
         wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//img[@src=\"/images/masts/mast_flightfinder.gif\"]")));
+
+
     }
 }
 

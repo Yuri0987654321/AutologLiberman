@@ -12,11 +12,6 @@ public class WebDrivingSettings {
         System.setProperty("webdriver.chrome.driver", "/chromedriver/chromedriver.exe");
         driver = new ChromeDriver();
         System.out.println("Start test");
-//        try {
-//            Thread.sleep(10000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
     }
 
     @After
